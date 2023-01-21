@@ -14,33 +14,33 @@
         <br>
     <div id="buttons">
         <br>
-        <button id="clear" onclick="cleardisplay()">clear</button>
+        <button id="clear" onclick="clearDisplay()">clear</button>
         <br>
-        <button id ='divide' onclick="AddtoDisplay('/')">/</button>
-        <button id ='multiply' onclick="AddtoDisplay('*')">*</button>
-        <button id ='substract' onclick="AddtoDisplay('-')">-</button>
+        <button id ='divide' onclick="AddToDisplay('/')">/</button>
+        <button id ='multiply' onclick="AddToDisplay('*')">*</button>
+        <button id ='substract' onclick="AddToDisplay('-')">-</button>
         <br>
-        <button id ='seven' onclick="AddtoDisplay(7)">7</button>
-        <button id ='eight' onclick="AddtoDisplay(8)">8</button>
-        <button id ='nine' onclick="AddtoDisplay(9)">9</button>
+        <button id ='seven' onclick="AddToDisplay(7)">7</button>
+        <button id ='eight' onclick="AddToDisplay(8)">8</button>
+        <button id ='nine' onclick="AddToDisplay(9)">9</button>
         <br>
-        <button id ='four' onclick="AddtoDisplay(4)">4</button>
-        <button id ='five' onclick="AddtoDisplay(5)">5</button>
-        <button id ='six' onclick="AddtoDisplay(6)">6</button>
-        <button id ='six' onclick="AddtoDisplay('+')">+</button>
+        <button id ='four' onclick="AddToDisplay(4)">4</button>
+        <button id ='five' onclick="AddToDisplay(5)">5</button>
+        <button id ='six' onclick="AddToDisplay(6)">6</button>
+        <button id ='six' onclick="AddToDisplay('+')">+</button>
         <br>
-        <button id ='one' onclick="AddtoDisplay(1)">1</button>
-        <button id ='two' onclick="AddtoDisplay(2)">2</button>
-        <button id ='three' onclick="AddtoDisplay(3)">3</button>
+        <button id ='one' onclick="AddToDisplay(1)">1</button>
+        <button id ='two' onclick="AddToDisplay(2)">2</button>
+        <button id ='three' onclick="AddToDisplay(3)">3</button>
         <br>
-        <button id ='one' onclick="AddtoDisplay(0)">0</button>
-        <button id ='two' onclick="AddtoDisplay('.')">.</button>
+        <button id ='one' onclick="AddToDisplay(0)">0</button>
+        <button id ='two' onclick="AddToDisplay('.')">.</button>
         <button id ='three' onclick="calculate()">=</button>
         </div>
     </div>
 </body>
 <script>
-function addToDisplay(val) {
+function AddToDisplay(val) {
     document.getElementById("display").value += val;
   }
   function clearDisplay() {
